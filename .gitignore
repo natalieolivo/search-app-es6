@@ -1,0 +1,7 @@
+# reminder: uses globbing patterns (see https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+
+# local dependencies
+/node_modules
+
+# cache
+.cache/
