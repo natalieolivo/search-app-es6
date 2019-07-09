@@ -38,6 +38,8 @@ body {
 .listview {
   padding: 0;
   list-style: none;
+  height: 75vh;
+  overflow: scroll;
 }
 
 .listitem,

@@ -46,6 +46,26 @@ app.post("/api/**/*", (req, res) => {
       id: randomize(),
       itemTitle: "Fortaleza",
       content: "Population: 2.6 million"
+    },
+    {
+      id: randomize(),
+      itemTitle: "Recife",
+      content: "Population: 1.6 million"
+    },
+    {
+      id: randomize(),
+      itemTitle: "Belém",
+      content: "Population: 2.1 million"
+    },
+    {
+      id: randomize(),
+      itemTitle: "Brasilia",
+      content: "Population: 2.6 million"
+    },
+    {
+      id: randomize(),
+      itemTitle: "Porto Alegre",
+      content: "Population: 1.5 million"
     }
   ]);
 });
