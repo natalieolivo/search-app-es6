@@ -1,6 +1,6 @@
 import DOMUtils from "./DOMUtils";
-import App from "./App";
-import ListView from "./ListView";
+import App from "../App";
+import ListView from "../components/ListView";
 
 const checkQueryForMatch = (query, listResults) => {
   let matchList = [];

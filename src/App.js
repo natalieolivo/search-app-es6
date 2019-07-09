@@ -1,8 +1,8 @@
-import HTTPUtils from "./HTTPUtils";
-import DOMUtils from "./DOMUtils";
-import DOMEvents from "./DOMEvents";
-import ListView from "./ListView";
-import SearchView from "./SearchView";
+import HTTPUtils from "./utils/HTTPUtils";
+import DOMUtils from "./utils/DOMUtils";
+import DOMEvents from "./utils/DOMEvents";
+import ListView from "./components/ListView";
+import SearchView from "./components/SearchView";
 
 const initialListData = [];
 const App = (() => {
