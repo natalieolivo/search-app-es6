@@ -2,7 +2,12 @@ const render = data => {
   if (data.length && typeof data !== "string") {
     let markup = "";
     data.forEach(item => {
-      markup += `<li class="listitem">${item.articleTitle}</li>`;
+      if (item && item.itemTitle) {
+        markup += `<li class="listitem">
+                        <h4>${item.itemTitle}</h4>
+                        <div>${item.content}</div>
+                    </li>`;
+      }
     });
     return `<ul class="listview">${markup}</ul>`;
   } else {

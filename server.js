@@ -29,8 +29,23 @@ app.post("/api/**/*", (req, res) => {
     },
     {
       id: randomize(),
+      itemTitle: "São Paulo",
+      content: "Population: 12 million"
+    },
+    {
+      id: randomize(),
+      itemTitle: "Rio de Janeiro",
+      content: "Population: 6.7 million"
+    },
+    {
+      id: randomize(),
       itemTitle: "Salvador",
-      content: "The best city evaaaa"
+      content: "Population: 2.7 million"
+    },
+    {
+      id: randomize(),
+      itemTitle: "Fortaleza",
+      content: "Population: 2.6 million"
     }
   ]);
 });

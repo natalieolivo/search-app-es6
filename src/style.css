@@ -1,0 +1,91 @@
+h1 {
+  text-transform: uppercase;
+  line-height: 0.6em;
+  color: #664;
+}
+
+h4 {
+  margin: 0;
+  line-height: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ebf5c8;
+}
+
+body {
+  background: #101010;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 14px;
+}
+
+#root {
+  background: linear-gradient(to top, #49b26e 0%, #57d895 100%);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  width: 400px;
+  height: 100vh;
+  padding: 20px;
+  color: #fff;
+}
+
+.listview {
+  padding: 0;
+  list-style: none;
+}
+
+.listitem,
+.listview-no-results {
+  padding: 20px 0;
+  border-bottom: solid 1px #ccc;
+}
+
+.search-input {
+  padding: 20px;
+  width: 360px;
+  border: 0;
+  font-size: 1.4em;
+  color: #666;
+}
+
+.search-button {
+  margin: 10px auto;
+  display: flex;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+  cursor: pointer;
+  width: 260px;
+  height: 60px;
+  animation: button 0.5s ease both, fill 0.5s ease-out 1.5s forwards;
+}
+
+input[type="text"],
+.search-button:focus {
+  outline: none;
+}
+
+.search-button:hover {
+  background-color: #37be77;
+}
+
+@keyframes button {
+  0% {
+    color: white;
+  }
+  50% {
+    color: transparent;
+  }
+}

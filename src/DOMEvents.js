@@ -8,7 +8,7 @@ const bind = (element, handlerTypes, handler) => {
         }
 
         event.preventDefault();
-        handler.call(handler, event);
+        handler && handler.call(handler, event);
       },
       false
     );
