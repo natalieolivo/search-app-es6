@@ -2,8 +2,7 @@ const render = (componentString) => {
     let root = document.querySelector("#root");
     let fragment = document.createDocumentFragment();
     
-    root.innerHTML = componentString;
-    console.log(componentString);
+    root.innerHTML = componentString;    
     fragment.appendChild(root);
     document.body.appendChild(fragment);  
 
